@@ -12,22 +12,18 @@
 
 	<distributionManagement>
 		<repository>
-			<id>oddschecker-api-repo-releases</id>
-			<name>
-				Maven Repository for Oddschecker JAVA API (releases)
-			</name>
+			<id>dk-maven2-repo-releases</id>
+			<name>dk-maven2 maven repository (releases)</name>
 			<url>
-				svn:https://oddschecker-api.googlecode.com/svn/maven-repo/releases
+				svn:https://dk-maven2-repo.googlecode.com/svn/maven-repo/releases
 			</url>
 			<uniqueVersion>false</uniqueVersion>
 		</repository>
 		<snapshotRepository>
-			<id>oddschecker-api-repo-releases</id>
-			<name>
-				Maven Repository for Oddschecker JAVA API (snapshots)
-			</name>
+			<id>dk-maven2-repo-snapshots</id>
+			<name>dk-maven2 maven repository (snapshots)</name>
 			<url>
-				svn:https://oddschecker-api.googlecode.com/svn/maven-repo/snapshots
+				svn:https://dk-maven2-repo.googlecode.com/svn/maven-repo/snapshots
 			</url>
 			<uniqueVersion>false</uniqueVersion>
 		</snapshotRepository>
